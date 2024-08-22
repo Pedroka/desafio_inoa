@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class Apib3Config(AppConfig):
+class GestaoAtivosConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apib3'
+    name = 'gestao_ativos'
