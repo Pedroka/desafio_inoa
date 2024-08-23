@@ -1,5 +1,5 @@
 *.pyc
 db.sqlite3
 /users/migrations/*
-/apib3/migrations/*
+/gestao_ativos/migrations/*
 */__pycache__

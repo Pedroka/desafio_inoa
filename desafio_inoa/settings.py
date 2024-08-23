@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apib3',
     'users.apps.UsersConfig',
+    'gestao_ativos',
     'rest_framework'
 ]
 
@@ -125,6 +125,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Configuração do RestFramework e do App de Users#
 import datetime
 
 REST_FRAMEWORK = {
